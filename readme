@@ -1,0 +1,36 @@
+Como iniciar um projeto simples em react (sem bibliotecas sass instaladas e outros add-ons):
+https://github.com/firstlookmedia/react-scripts
+
+Como chamar o projeto sem indicar manualmente
+git bash here > code .
+
+Para colar coisas no terminal: carregar no scroll;
+
+Wrap the multi-line JSX expression in parentheses:
+(
+  <a href="https://www.example.com">
+    <h1>
+      Click me!
+    </h1>
+  </a>
+)
+
+Nested JSX expressions can be saved as variables, passed to functions, etc.,
+
+There's a rule that we haven't mentioned: a JSX expression must have exactly one outermost element
+If you notice that a JSX expression has multiple outer elements, the solution is usually simple: wrap the JSX expression in a <div></div>.
+
+Sempre que uma expressão JSX tem mais do que um outerelement (p+h1+img, por exemplo) é necessário incluí-los numa div para que o código funcione.
+
+
+const myList = (
+  <ul>
+    <li>Study lots of react</li>
+    <li>Learn how to be an awesome developer</li>
+  </ul>
+);
+
+ReactDOM.render( -o quê)
+	myList,
+  document (onde?). (como?)getElementById ('app' - sobre qual ficheiro?)
+)
