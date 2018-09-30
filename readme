@@ -34,3 +34,15 @@ ReactDOM.render( -o quê)
 	myList,
   document (onde?). (como?)getElementById ('app' - sobre qual ficheiro?)
 )
+$ cd C://users/... ou vou diretamente à pasta e faço Git Bash Here
+$cd -tab- 
+* Pesquisa diretamente a pasta que existe no caminho definido *
+$git init
+* Inicia o processo de git *
+$ git add -A
+* Prepara todos os ficheiros da pasta para stach *
+$git commit -m 'before adding sass'
+* Faz o commit dos ficheiros antes das novas alterações e dentro das pelicas devo escrever o que singifica este commit *
+
+Install sass from webpack (solução mais extensible e automated mas exige sempre eject)
+$ npm install sass-loader node-sass --save-dev
