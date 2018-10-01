@@ -33,7 +33,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">
-        <ul>
+        <ul className= "NavbarList">
             <li>Home</li>
             <li>About</li>
             <li>Products</li>

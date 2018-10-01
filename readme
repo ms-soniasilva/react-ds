@@ -44,5 +44,12 @@ $ git add -A
 $git commit -m 'before adding sass'
 * Faz o commit dos ficheiros antes das novas alterações e dentro das pelicas devo escrever o que singifica este commit *
 
+Adding Scss
+https://medium.com/@Connorelsea/using-sass-with-create-react-app-7125d6913760
+
 Install sass from webpack (solução mais extensible e automated mas exige sempre eject)
 $ npm install sass-loader node-sass --save-dev
+
+Run Scss
+https://medium.com/@oreofeolurin/configuring-scss-with-react-create-react-app-1f563f862724
+
